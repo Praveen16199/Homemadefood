@@ -1,0 +1,23 @@
+# Ignore editor and OS files
+.DS_Store
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.db
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.cache/
+
+# Logs
+*.log
+
+# IDE
+.idea/
