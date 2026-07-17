@@ -2,12 +2,13 @@ import React, { useState, useEffect } from "react";
 import Menu from "./components/Menu";
 import Cart from "./components/Cart";
 import Admin from "./components/Admin";
+import { INITIAL_MENU } from "./initialMenu";
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "";
 
 export default function App() {
   const [view, setView] = useState("store"); // 'store' or 'admin'
-  const [menuItems, setMenuItems] = useState([]);
+  const [menuItems, setMenuItems] = useState(INITIAL_MENU);
   const [cart, setCart] = useState([]);
   const [cartOpen, setCartOpen] = useState(false);
   const [activeCategory, setActiveCategory] = useState("All");
@@ -19,9 +20,10 @@ export default function App() {
       const response = await fetch(`${API_BASE_URL}/api/menu`);
       if (!response.ok) throw new Error("Unable to fetch menu");
       const data = await response.json();
-      setMenuItems(Array.isArray(data) ? data : []);
+      setMenuItems(Array.isArray(data) && data.length > 0 ? data : INITIAL_MENU);
     } catch (err) {
-      console.error("Error fetching menu items:", err);
+      console.error("Error fetching menu items, falling back to local menu:", err);
+      setMenuItems(INITIAL_MENU);
     }
   };
 

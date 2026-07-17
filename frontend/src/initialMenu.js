@@ -1,0 +1,23 @@
+export const INITIAL_MENU = [
+  { id: "c1", name: "Special Chettinad Combo", category: "Combos", price: 159.0, type: "non-veg", isAvailable: true },
+  { id: "b1", name: "Steaming Hot Idli (2 Pcs)", category: "Breakfast", price: 40.0, type: "veg", isAvailable: true },
+  { id: "b2", name: "Crispy Ghee Roast Dosa", category: "Breakfast", price: 70.0, type: "veg", isAvailable: true },
+  { id: "b3", name: "Home-style Pongal & Vada", category: "Breakfast", price: 60.0, type: "veg", isAvailable: true },
+  { id: "b4", name: "Poori Masala (3 Pcs)", category: "Breakfast", price: 80.0, type: "veg", isAvailable: true },
+  { id: "l1", name: "Wholesome Veg Meals", category: "Lunch", price: 120.0, type: "veg", isAvailable: true },
+  { id: "l2", name: "Chettinad Chicken Biryani", category: "Lunch", price: 180.0, type: "non-veg", isAvailable: true },
+  { id: "l3", name: "Egg Biryani (with 2 eggs)", category: "Lunch", price: 140.0, type: "egg", isAvailable: true },
+  { id: "l4", name: "Curd Rice with Pomegranate", category: "Lunch", price: 70.0, type: "veg", isAvailable: true },
+  { id: "a1", name: "Soft Chapati (1 Pc)", category: "Add-ons", price: 15.0, type: "veg", isAvailable: true },
+  { id: "a2", name: "Boiled Egg (1 Pc)", category: "Add-ons", price: 15.0, type: "egg", isAvailable: true },
+  { id: "a3", name: "Fluffy Egg Omelette", category: "Add-ons", price: 30.0, type: "egg", isAvailable: true },
+  { id: "a4", name: "Chettinad Chicken Gravy (cup)", category: "Add-ons", price: 90.0, type: "non-veg", isAvailable: true },
+  { id: "d1", name: "Dinner Dosa with Chutney & Sambar", category: "Dinner", price: 50.0, type: "veg", isAvailable: true },
+  { id: "d2", name: "Wheat Chapati with Kurma (3 Pcs)", category: "Dinner", price: 70.0, type: "veg", isAvailable: true },
+  { id: "e1", name: "Egg Kalaki (Street Style)", category: "Egg Specials", price: 25.0, type: "egg", isAvailable: true },
+  { id: "e2", name: "Spicy Egg Podimas", category: "Egg Specials", price: 40.0, type: "egg", isAvailable: true },
+  { id: "nv1", name: "Chicken 65 (Boneless, 150g)", category: "Non Veg Specials", price: 140.0, type: "non-veg", isAvailable: true },
+  { id: "nv2", name: "Spicy Pepper Chicken Fry", category: "Non Veg Specials", price: 150.0, type: "non-veg", isAvailable: true },
+  { id: "bev1", name: "Traditional Filter Coffee", category: "Beverages", price: 25.0, type: "veg", isAvailable: true },
+  { id: "bev2", name: "Refreshing Pepsi (250ml)", category: "Beverages", price: 20.0, type: "veg", isAvailable: true }
+];
