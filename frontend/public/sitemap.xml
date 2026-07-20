@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- No URLs are listed yet because the published site domain is not known.
-       Add your actual site URL here once the site is deployed.
-       Example:
-       <url>
-         <loc>https://example.com/</loc>
-         <lastmod>2026-07-20</lastmod>
-         <changefreq>weekly</changefreq>
-         <priority>1.00</priority>
-       </url>
-  -->
+  <!-- Replace the example URL below with your actual published site domain. -->
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
 </urlset>
